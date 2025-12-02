@@ -1,7 +1,21 @@
-name: pfe_env
+name: pfe_can2025
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.10
-  - jupyter
-  # Ajoute tes dépendances ici
+  - pip
+  - pip:
+    - torch
+    - transformers
+    - datasets
+    - pandas
+    - numpy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - plotly
+    - tweepy
+    - streamlit
+    - plotly
+    - nltk
+    - spacy
