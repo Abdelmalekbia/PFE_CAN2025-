@@ -1,0 +1,19 @@
+# Sentiment Analysis Project Configuration
+
+# Set the model type
+model_type: sentiment-analysis
+
+# Set the training parameters
+training:
+  epochs: 50
+  batch_size: 32
+
+# Set the data paths
+paths:
+  train_data: data/train.csv
+  test_data: data/test.csv
+
+# Set the output paths
+output:
+  model: models/sentiment_model.h5
+  logs: logs/
